@@ -37,7 +37,7 @@ public extension MenuViewCustomizable {
         return 0.3
     }
     var deceleratingRate: CGFloat {
-        return UIScrollViewDecelerationRateFast
+        return UIScrollView.DecelerationRate.fast; //UIScrollViewDecelerationRateFast
     }
     var selectedItemCenter: Bool {
         return true
